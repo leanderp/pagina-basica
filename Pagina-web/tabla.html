@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Tablas - Todo Tecnologia 2021</title>
+<link rel="stylesheet" href="css/estilo.css">	
+	
+</head>
+<body>
+  <!-- Cabecera -->
+  <header> 
+    <h1><a href="index.html">Tu Blog de Tecnologia y Video Juegos</a></h1>
+  </header>
+  <!-- Contenido -->
+  <section>
+    <h1>Tipo de dato</h1>
+    <div>
+       <hr>
+       <p>En ciencias de la computación, un tipo de dato informático o simplemente tipo, es un atributo de los datos que indica al ordenador (y/o al programador/programadora) sobre la clase de datos que se va a manejar. Esto incluye imponer restricciones en los datos, como qué valores pueden tomar y qué operaciones se pueden realizar.</p>
+       <hr>
+       <h2>Información</h2>
+       <p>Un tipo de dato es, un espacio en memorias con restricciones. Por ejemplo, el tipo "int" representa, generalmente, un conjunto de enteros de 32 bits cuyo rango va desde el -2.147.483.648 al 2.147.483.647, así como las operaciones que se pueden realizar con los enteros, como son la suma, la resta, y la multiplicación. Los colores, por su parte, se representan como tres bytes denotando la cantidad de rojo, verde y azul, y una cadena de caracteres representando el nombre del color (en este caso, las operaciones permitidas incluyen la adición y la sustracción, pero no la multiplicación).
+          Este es un concepto propio de la informática, y más específicamente de los lenguajes de programación, aunque también se encuentra relacionado con nociones similares de la matemática y la lógica.
+          En un sentido amplio, un tipo de datos define un conjunto de valores y las operaciones sobre esos valores. Casi todos los lenguajes de programación explícitamente incluyen la notación del tipo de datos, aunque lenguajes diferentes pueden usar terminologías diferentes. La mayor parte de los lenguajes de programación permiten al programador definir tipos de datos adicionales, normalmente combinando múltiples elementos de otros tipos y definiendo las operaciones del nuevo tipo de dato. Por ejemplo, un programador puede crear un nuevo tipo de dato llamado "Persona", contemplando que el dato interpretado como "Persona" incluya un nombre y una fecha de nacimiento.
+       </p>
+       <h2>Clases de tipos de datos</h2>
+       <h3>Tipos de datos primitivos (o elementales)</h3>
+       <p>Los tipos de datos hacen referencia al tipo de información que se trabaja, donde la unidad mínima de almacenamiento es el dato, también se puede considerar como el rango de valores que puede tomar una variable durante la ejecución del programa</p>
+       <h4>Caracteres</h4>
+       <p>El tipo de dato carácter es un dígito individual el cual se puede representar como numéricos (0 al 9), letras (a-z) y símbolos (!"$&/\).</p>
+       <div id="main-countainer1">
+          <table>
+             <thead>
+                <tr>
+                   <th><strong>Tipo de dato</strong></th>
+                   <th><strong>Rango</strong></th>
+                   <th><strong>Tamaño en memoria</strong></th>
+                </tr>
+             </thead>
+             <tr>
+                <td>Char</td>
+                <td>10</td>
+                <td>21</td>
+             </tr>
+          </table>
+       </div>
+       <h4>Caracteres unicode</h4>
+       <p>El tipo de dato carácter unicode es una "extensión" del tipo de dato cadena, permite ampliar los símbolos de escritura, provee exactamente hasta 65535 caracteres diferentes.
+          Nota: En el lenguaje java la codificación Unicode permite trabajar con todos los caracteres de distintos idiomas.
+       </p>
+       <div id="main-countainer1">
+        <table>
+          <thead>
+             <tr>
+                <th><strong>Tipo de dato</strong></th>
+                <th><strong>Rango</strong></th>
+                <th><strong>Tamaño en memoria</strong></th>
+             </tr>
+          </thead>
+          <tr>
+             <td>short</td>
+             <td>0 a 65535</td>
+             <td>16 bits por carácter</td>
+          </tr>
+        </table>
+        </div>
+       <h4>Numéricos</h4>
+       <p>Este tipo de dato puede ser real o entero, dependiendo del tipo de dato que se vaya a utilizar.
+          Enteros: son los valores que no tienen punto decimal, pueden ser positivos o negativos y el cero.
+       </p>
+       <div id="main-countainer1">
+       <table>
+          <thead>
+             <tr>
+                <th><strong>Tipo de dato</strong></th>
+                <th><strong>Memoria</strong></th>
+             </tr>
+          </thead>
+          <tr>
+             <td>byte</td>
+             <td>8 bits</td>
+          </tr>
+          <tr>
+             <td>short</td>
+             <td>16 bits</td>
+          </tr>
+          <tr>
+             <td>int</td>
+             <td>32 bits</td>
+          </tr>
+          <tr>
+             <td>long</td>
+             <td>64 bits</td>
+          </tr>
+       </table>
+      </div>
+       <p>Reales: estos caracteres almacenan números muy grandes que poseen parte entera y parte decimal.estos serían sus rangos y tamaños ordenados</p>
+       <div id="main-countainer1">
+       <table>
+          <thead>
+             <tr>
+                <th><strong>Tipo de dato</strong></th>
+                <th><strong>Memoria</strong></th>
+             </tr>
+          </thead>
+          <tr>
+             <td>float</td>
+             <td>32 bits</td>
+          </tr>
+          <tr>
+             <td>double</td>
+             <td>64 bits</td>
+          </tr>
+       </table>
+      </div>
+       <h4>Booleanos</h4>
+       <p>Este tipo de dato se emplea para valores lógicos, los podemos definir como datos comparativos dicha comparación devuelve resultados lógicos (Verdadero o Falso).</p>
+       <div id="main-countainer1">
+       <table>
+          <thead>
+             <tr>
+                <th><strong>Tipo de dato</strong></th>
+                <th><strong>Memoria</strong></th>
+             </tr>
+          </thead>
+          <tr>
+             <td>boolean</td>
+             <td>8 bits</td>
+          </tr>
+       </table>
+      </div>
+       <h2>Tipos de datos en distintos lenguajes</h2>
+       <hr>
+       <h3>Pascal</h3>
+       <p>El lenguaje de programación Pascal permite declarar variables de tipo carácter (Cadena) y numérica. Como se puede apreciar, todas las variables excepto la de tipo Cadena son de tipo numéricas (incluyendo Booleano).</p>
+       <div id="main-countainer2">
+       <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Memoria requerida</th>
+            <th>Rango</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+          <tr>
+            <td>Booleano</td>
+            <td>1bit</td>
+            <td>1 ~ 0</td>
+            <td>Verdad - Falso</td>
+          </tr>
+            <td>Byte</td>
+            <td>1 byte (8 Bits)</td>
+            <td>0 ~ 255</td>
+            <td>Byte sin signo.</td>
+          </tr>
+          <tr>
+            <td>ByteSig</td>
+            <td>1 byte (8 Bits)</td>
+            <td>(-128) ~ 127</td>
+            <td>Byte con signo.</td>
+          </tr>
+          <tr>
+            <td>Word</td>
+            <td>2 byte (16 Bits)</td>
+            <td>0 ~ 65.535</td>
+            <td>Word sin signo</td>
+          </tr>
+          <tr>
+            <td>WordSig</td>
+            <td>2 byte (16 Bits)</td>
+            <td>(-32768) ~ 32767</td>
+            <td>Word con signo.</td>
+          </tr>
+          <tr>
+            <td>Entero</td>
+            <td>4 byte (32 Bits)</td>
+            <td>0 ~ 4.294.967.295</td>
+            <td>Entero sin signo.</td>
+          </tr>
+          <tr>
+            <td>EnteroSig</td>
+            <td>4 byte (32 Bits)</td>
+            <td>(-2.147.483.648) ~ 2.147.483.647</td>
+            <td>Entero con signo.</td>
+          </tr>
+          <tr>
+            <td>Real</td>
+            <td>8 byte (64 Bits)</td>
+            <td>(-1,79769313486232^308) ~ (-4,94065645841247^-324)</td>
+            <td>Número con coma flotante de doble precisión.</td>
+          </tr>
+          <tr>
+            <td>Decimal</td>
+            <td>8 byte (64 Bits)</td>
+            <td>(-922.337.203.685.477,5800) ~ 922.337.203.685.477,5800</td>
+            <td>Número con coma fija de 4 decimales</td>
+          </tr>
+            <tr>
+              <td>1 byte por carácter</td>
+              <td>Cadena</td>
+              <td>Cadena de caracteres alfanumérica.</td>
+              <td>0 ~ 2.000 millones de caracteres</td>
+          </tr>
+      </table>
+      </div>
+      <h3>Java</h3>
+        <p>El lenguaje de programación Java permite declarar variables de tipo primitivo, pero dada que los envoltorios de dichas funciones presentan muchas operaciones útiles, es más común hacer uso de las clases que las tratan.</p>
+        <div id="main-countainer2">
+        <table>
+          <thead>
+          <tr>
+             <th>Nombre</th>
+             <th>Declaración</th>
+             <th>Memoria requerida</th>
+             <th>Intervalo</th>
+             <th>Descripción
+             </th>
+          </tr>
+        </thead>
+          <tr>
+             <td>Booleano</td>
+             <td>boolean</td>
+             <td>-</td>
+             <td>true - false</td>
+             <td>Define una bandera que puede tomar dos posibles valores: true o false.
+             </td>
+          </tr>
+          <tr>
+             <td>Byte</td>
+             <td>byte</td>
+             <td>1 byte (8 bits)</td>
+             <td>[-128 .. 127]</td>
+             <td>Representación del número de menor rango con signo.
+             </td>
+          </tr>
+          <tr>
+             <td>Entero pequeño</td>
+             <td>short</td>
+             <td>2 byte (16 bits)</td>
+             <td>[-32,768 .. 32,767]</td>
+             <td>Representación de un entero cuyo rango es pequeño.
+             </td>
+          </tr>
+          <tr>
+             <td>Entero</td>
+             <td>int</td>
+             <td>4 byte (32 bits)</td>
+             <td>[-2<sup>31</sup> .. 2<sup>31</sup>-1]</td>
+             <td>Representación de un entero estándar. Este tipo puede representarse sin signo usando su clase <i>Integer</i> a partir de la Java SE 8.
+             </td>
+          </tr>
+          <tr>
+             <td>Entero largo</td>
+             <td>long</td>
+             <td>8 byte (64 bits)</td>
+             <td>[-2<sup>63</sup> .. 2<sup>63</sup>-1]</td>
+             <td>Representación de un entero de rango ampliado. Este tipo puede representarse sin signo usando su clase <i>Long</i> a partir de la Java SE 8.
+             </td>
+          </tr>
+          <tr>
+             <td>Real</td>
+             <td>float</td>
+             <td>4 byte (32 bits)</td>
+             <td>[±3,4·10<sup>-38</sup> .. ±3,4·10<sup>38</sup>]</td>
+             <td>Representación de un real estándar. Recordar que al ser real, la precisión del dato contenido varía en función del tamaño del número: la precisión se amplia con números más próximos a 0 y disminuye cuanto más se aleja del mismo.
+             </td>
+          </tr>
+          <tr>
+             <td>Real largo</td>
+             <td>double</td>
+             <td>8 byte (64 bits)</td>
+             <td>[±1,7·10<sup>-308</sup> .. ±1,7·10<sup>308</sup>]</td>
+             <td>Representación de un real de mayor precisión. Double tiene el mismo efecto con la precisión que float.
+             </td>
+          </tr>
+          <tr>
+             <td>Carácter</td>
+             <td>char</td>
+             <td>2 byte (16 bits)</td>
+             <td>['\u0000' .. '\uffff'] o [0 .. 65.535]</td>
+             <td>Carácter o símbolo. Para componer una cadena es preciso usar la clase <i>String</i>, no se puede hacer como tipo primitivo.
+             </td>
+          </tr>
+        </table>
+        </div>
+       <h2>Lenguajes de programacion mas comunes</h2>
+       <p>Tabla con los lengueajes mas comunes que se usan todos los tipos de datos antes espuestos</p>
+       <div id="main-countainer1">
+       <table summary="Tabla con los datos de los resultados de la búsqueda">
+          <caption>Resultado de la búsqueda</caption>
+        <thead>
+          <tr>
+             <th scope="col">Imagen</th>
+             <th scope="col">Lenguaje</th>
+          </tr>
+        </thead>
+          <tr>
+             <td>
+                <img src="media/python.png" alt="Logo python" height="150px"/>
+             </td>
+             <td>
+                <h4>Python</h4>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <img src="media/javaScript.png" alt="Logo Javascript" height="150px"/>
+             </td>
+             <td>
+                <h4>Javascript</h4>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <img src="media/go.png" alt="Logo Go" height="150px"/>
+             </td>
+             <td>
+                <h4>Go</h4>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                <img src="media/c++.png" alt="Logo C++" height="150px"/>
+             </td>
+             <td>
+                <h4>C++</h4>
+             </td>
+          </tr>
+       </table>
+      </div>
+    </div>
+ </section>
+  <!-- Contenido relacionado-->
+  <aside>
+        <h3>Acerca del Autor</h3>
+        <div>   
+                <h4>Sobre Mi</h4>
+                <img src="media/autor.jpg" width="100%" height="100%" alt="foto"  />
+                <p>Hola mi nombre es <strong>Leander Perez</strong>  y elaboro este blog por una evaluacion del Iutar especificamente de Lenguaje y Programacion 3</p>
+        </div> 
+        <h3>Últimos artículos</h3>
+        <div>
+                <ul>
+                        <li>
+                                <a href="http://tublogtecnologico.com/la-importancia-de-la-tecnologia-en-el-sector-retail/">La importancia tecnológica en el sector ‘retail’</a>
+                        </li>
+                        <li>
+                                <a href="http://tublogtecnologico.com/adentrate-en-la-tecnologia-del-5g/">Adéntrate en la tecnología del 5G</a>
+                        </li>
+                        <li>
+                                <a href="http://tublogtecnologico.com/que-red-social-encaja-mejor-contigo/">¿Qué red social encaja mejor contigo?</a>
+                        </li>
+                        <li>
+                                <a href="http://tublogtecnologico.com/como-desinfectar-tu-movil/">Cómo desinfectar tu móvil</a>
+                        </li>
+                        <li>
+                                <a href="http://tublogtecnologico.com/la-tecnologia-ante-el-covid-19/">La tecnología ante el COVID-19</a>
+                        </li>
+                        <li>
+                                <a href="http://tublogtecnologico.com/conoce-la-actualizacion-de-mgs-ciberseguridad/">Conoce la actualización de MGS Ciberseguridad</a>
+                        </li>
+                        <li>
+                                <a href="http://tublogtecnologico.com/acercate-a-los-tuyos-gracias-a-estas-apps-de-videollamada/">Acércate a los tuyos gracias a estas ‘apps’ de videollamada</a>
+                        </li>
+                        <li>
+                                <a href="http://tublogtecnologico.com/ciberdelincuencia-a-causa-del-covid-19/">Ciberdelincuencia a causa del COVID-19</a>
+                        </li>
+                        <li>
+                                <a href="http://tublogtecnologico.com/teletrabajo-cambio-de-posicion/">Teletrabajo, cambio de posición</a>
+                        </li>
+                        <li>
+                                <a href="http://tublogtecnologico.com/no-news-bad-news/">“No news, bad news”</a>
+                        </li>
+                </ul>
+        </div>
+  </aside>
+
+  <!-- Pie de pagina -->
+
+  <footer>
+        <a href="sobre-mi.html">Sobre Mi</a> , 
+        <a href="aviso-legal.html">Aviso Legal</a> , 
+        <a href="contacto.html">Contacto</a>
+        <a href="tabla.html">Tabla de Datos</a>
+  </footer>
+
+
+</body>
+</html>

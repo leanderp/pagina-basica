@@ -1,0 +1,144 @@
+html,body {
+	height:100%;
+	font-family: Arial;
+	background: white;
+}
+
+header {
+		
+	display:block;
+	background:#61e6c9;
+	padding:10px 0px;
+}
+section {
+	width: 79%;
+	background: #ccc;
+	float: left;
+	overflow: auto;
+	padding-bottom: 60px;
+	padding-top:30px;
+}
+
+aside {
+	float: right;
+	border: 1px solid rgb(88, 88, 206);
+	width: 19%;
+	border: 1px solid rgb(106, 106, 245);
+}
+footer {
+	position: relative;
+	margin-top: -50px;
+	height: 40px; 
+	padding:5px 0px;
+	clear: both;
+	background: #eceef1;
+	text-align: center;
+	color: #fff;
+}
+figure {
+	display: table; margin: 0 auto;
+}
+
+#main-countainer1{
+	margin: 50px auto;
+	width: 600px;
+}
+
+#main-countainer2{
+	margin: 50px auto;
+	width: 95%;
+}
+
+#formulario{
+	background-color: #fafafa;
+	margin: 1rem;s
+	padding: 1rem;
+	border: 2px solid #ccc;
+	text-align: center;
+}
+
+#articulo{
+	background-color: #a6d8e0;
+	margin: 1rem;s
+	padding: 1rem;
+	border: 2px solid #ccc;
+	text-align: center;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse:collapse ;
+	width: 100%;
+}
+
+th, td{
+	padding: 15;
+}
+
+thead{
+	background-color: #246555;
+	border-bottom: solid 5px;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover{
+	background-color: #246555;
+	color:white;
+}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
